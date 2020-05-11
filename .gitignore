@@ -31,13 +31,16 @@ local.properties
 
 # node.js
 
-npm-debug.log
-yarn-error.log
-
 !node_modules/
 
 node_modules/*
+!node_modules/react-native-simple-survey/
+
+node_modules/react-native-simple-survey/*
 !node_modules/react-native-simple-survey/index.js
+
+npm-debug.log
+yarn-error.log
 
 # BUCK
 buck-out/
